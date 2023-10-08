@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Conoce paradojas</title>
+</head>
+<body>
+<header>
+   <nav class="navbar-collapse sticky-top nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Paradojas</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#preguntas">El Gato de Schrödinger</a></li>
+                  <li><a class="dropdown-item" href="#preguntas2">El huevo o la Gallina</a></li>
+                  <li><a class="dropdown-item" href="#preguntas3">Paradoja de Pincoho</a></li>
+                  <li><a class="dropdown-item" href="#carousel-abuelo">Paradoja del Abuelo</a></li>
+                  <li><a class="dropdown-item" href="#option-cards1">Paradoja del Barbero</a></li>
+                  <li><a class="dropdown-item" href="#option-cards2">Paradoja del Perezoso</a></li>
+                  <li><a class="dropdown-item" href="#option-cards3">Paradoja del Exámen</a></li>
+                  <li><a class="dropdown-item" href="#option-cards4">Paradoja del Tiempo</a></li>
+                  <li><a class="dropdown-item" href="#option-cards5">Paradoja del montón de arena</a></li>
+                  <li><a class="dropdown-item" href="#option-cards6" id="last-dropdown">Paradoja de los dos sobres</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-nosotras">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contáctame</a>
+            </li>
+          </ul>
+    </nav>
+    <div class="title-container" id="inicio">
+        <h1>Conoce paradojas</h1>
+    </div>
+</header>
+<main>
+<section>
+  <div class="card que-son">
+     <div class="card-body">
+        <h2>¿Qué es una paradoja?</h2>
+        <p>Una paradoja (del latín paradoxa, 'lo contrario a la opinión común') es una idea extraña, opuesta a lo que se considera la opinión general o con una contradicción lógica pero cuyo contenido es verdadero. Algunas paradojas son razonamientos en apariencia válidos, que parten de premisas en apariencia verdaderas, pero que conducen a contradicciones o situaciones contrarias al sentido común. En la retórica, es una figura de pensamiento que consiste en emplear expresiones o frases que implican contradicción. Las paradojas son estímulo para la reflexión y a menudo los filósofos se sirven de ellas para revelar la complejidad de la realidad.</p>
+     </div>
+  </div>
+</section>
+<section>
+<div class="container">
+<div class="row">
+  <h2>Paradojas:</h2>
+ <div class="col-md-4 px-2">
+  <div id="preguntas">
+        <div class="pregunta" style="display: block;" class="card" style="width: 18rem;">
+            <img src="./imgs/schrodinger.jpg" class="card-img-top" alt="..." class="card-img2" style="height: 235px;"> 
+            <h3 class="card-title">Gato de Schrödinger</h3>    
+             <button class="siguienteBtn" class="btn btn-primary">Siguiente</button>    
+        </div>
+        <div class="pregunta" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/schrodinger.jpg" class="card-img-top" alt="..." class="card-img2" style="height: 235px;">
+            <h5 class="card-title">¿Quieres saber en qué consiste?</h5>
+             <button class="mostrarBtn" data-contenido="Imaginemos un gato dentro de una caja. En su interior se instala un detector de electrones unido a un mecanismo. Si el detector capta un electrón activará el mecanismo que matará al gato.
+             Al disparar un electrón puede que sea detectado o que no, matando o no al gato. Hay un 50% de probabilidades de que suceda una cosa o la otra. Pero la cuántica desafía nuestro sentido común.
+             El electrón toma distintos caminos a la vez. Estos caminos se superponen. De modo que toma el camino del detector y, al mismo tiempo, el contrario. El gato esta muerto y vivo a la vez.">sí</button>
+             <button class="siguienteBtn">Siguiente</button>
+        </div>
+        <div class="pregunta" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/schrodinger.jpg" class="card-img-top" alt="..." class="card-img2" style="height: 235px;">
+            <h5 class="card-title" id="mostrar-solu">¿Mostrar posibles soluciones?</h5>
+            <button class="mostrarBtn" data-contenido="Sabemos que el electrón será detectado y el gato morirá. Y, al mismo tiempo, no será detectado y el gato seguirá vivo. A escala atómica, ambas probabilidades se cumplen de forma simultánea. Pero, al abrir la caja, nosotros sólo lo vemos vivo o muerto. Si ambas posibilidades se cumplen y son reales, ¿por qué sólo vemos una? La explicación es que el experimento aplica las leyes cuánticas, pero el gato no es un sistema cuántico. Cualquier interacción con el entorno hace que las leyes cuánticas dejen de aplicarse.
+            ">sí</button>
+            <button class="siguienteBtn">Siguiente</button>
+        </div>
+        <div class="pregunta" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/schrodinger.jpg" class="card-img-top" alt="..." class="card-img2" style="height: 235px;">
+            <h5 class="card-title" id="mas-info">¿Más información?</h5>
+            <button class="mostrarBtn" data-contenido="Fue ideado por el físico austriaco-irlandés Erwin Schrödinger en 1935, durante el curso de discusiones con Albert Einstein.
+            El experimento mental también se presenta a menudo en discusiones teóricas sobre las interpretaciones de la mecánica cuántica, particularmente en situaciones que involucran el problema de la medición. Schrödinger acuñó el término Verschränkung (entrelazamiento cuántico) durante el desarrollo del experimento mental.">sí</button>
+            <button class="siguienteBtn">Siguiente</button>
+        </div>
+    </div>
+   <div class="info">
+    <p id="recuadro-info" style="display: none;" class="card-text"></p>
+   </div>
+</div>
+<div class="col-md-4 px-2">
+    <div id="preguntas2">
+        <div class="pregunta2" style="display: block;" class="card" style="width: 18rem;">
+            <img src="./imgs/huevo o gallina.avif" class="card-img2" class="card-img-top" alt="...">
+            <h3 class="card-title">El huevo o la gallina</h3>
+            <button class="siguienteBtn2" class="btn btn-primary">Siguiente</button>
+        </div>
+        <div class="pregunta2" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/huevo o gallina.avif" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title">¿Quieres saber en que consiste?</h5>
+            <button class="mostrarBtn2" data-contenido="Siempre se suele plantear el eterno dilema… ¿qué fue antes, el huevo o la gallina? En el caso de afirmar que lo primero fue la gallina, se plantea que esta ha tenido que salir antes de un huevo. En el caso de ir primero el huevo, este tuvo que ser puesto por una gallina.  Algunos grandes pensadores se han pronunciado respecto a su opinión sobre este dilema. Por ejemplo, Aristóteles creía que lo primero que había existido era la gallina, mientras que Stephen Hawking afirmaba que era el huevo.">sí</button>
+            <button class="siguienteBtn2">Siguiente</button>
+        </div>
+        <div class="pregunta2" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/huevo o gallina.avif" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title" id="mostrar-solu2">¿Mostrar posibles soluciones?</h5>
+            <button class="mostrarBtn2" data-contenido="Científicos de la Universidad de Warwick y Sheffield (Inglaterra) afirman que la gallina existió antes que el huevo ya que una proteína de las gallinas cumple una función vital en la formación de la cáscara del huevo. Sostienen que esa primera gallina posiblemente no nació de un huevo de su misma especie.
+            Sin embargo, otros investigadores han descubierto que las gallinas, evolucionaron a partir de especies que ponían huevos de cáscara dura. Por lo tanto, la primera gallina habría nacido de un huevo de cáscara dura puesto por una especie ancestral. La verdad de esta paradoja continúa sin conocerse.">sí</button>
+            <button class="siguienteBtn2">Siguiente</button>
+        </div>
+        <div class="pregunta2" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/huevo o gallina.avif" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title" id="mas-info2">¿Más información?</h5>
+            <button class="mostrarBtn2" data-contenido="El huevo o la gallina es un dilema que proviene de la expresión «¿Qué fue primero?», ya que del huevo nacen las gallinas y así respectivamente. Esta expresión llena de antigüedad condujo a los filósofos antiguos a cuestionar cómo se originó la vida y el Universo.
+            En el habla popular, referirse a la cuestión «el huevo o la gallina» hace hincapié a la inutilidad de preguntarse que fue primero, pues esta sentencia es una falacia del tipo círculo vicioso.">sí</button>
+            <button class="siguienteBtn2">Siguiente</button>
+        </div>
+    </div>
+    <div class="info">
+        <p id="recuadro-info2" style="display: none;" class="card-text"></p>
+    </div>
+</div>
+<div class="col-md-4 px-2">
+    <div id="preguntas3">
+        <div class="pregunta3" style="display: block;" class="card" style="width: 18rem;">
+            <img src="./imgs/paradojaDePinocho.jpg" class="card-img2" class="card-img-top" alt="...">
+            <h3 class="card-title">Paradoja de Pinocho</h3>
+            <button class="siguienteBtn3">Siguiente</button>
+        </div>
+        <div class="pregunta3" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/paradojaDePinocho.jpg" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title">¿Quieres saber en que consiste?</h5>
+            <button class="mostrarBtn3" data-contenido="
+            ¿Qué sucedería si Pinocho dijera la oración “me va a crecer la nariz ahora”? Esto solo podría dar a dos situaciones válidas desde el punto de vista lógico: Si lo que dijo es cierto, entonces la nariz crecerá, pero el problema es que no debería hacerlo ya que la nariz de Pinocho sólo debería crecer en caso de que mienta. Es decir, su nariz estaría creciendo cuando dice la verdad. Si lo que dijo es mentira, entonces la nariz no le crecerá, pero el problema es que debería crecer, ya que esta crece en caso de que diga una mentira. Es decir, su nariz no estaría creciendo cuando dice una mentira.">sí</button>
+            <button class="siguienteBtn3">Siguiente</button>
+        </div>
+        <div class="pregunta3" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/paradojaDePinocho.jpg" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title" id="mostrar-solu3">¿Mostrar posibles soluciones?</h5>
+            <button class="mostrarBtn3" data-contenido="Una posible solución a la paradoja de Pinocho se basa en la intencionalidad: Su nariz crecerá solo si tiene la intención de mentir. No obstante, hay quienes argumentan que Pinocho no puede estar seguro de esto dado que el futuro es indeterminado y que las mentiras no dejan de serlo independientemente de la intención del personaje, por lo que esta solución no podría ser viable. En esta paradoja, la solución más lógica es que a Pinocho no le va a crecer la nariz, ya que lo que está haciendo es una suposición y para que le crezca la nariz tiene que mentir intencionalmente, si no, se trata solamente de una predicción falsa.">sí</button>
+            <button class="siguienteBtn3">Siguiente</button>
+        </div>
+        <div class="pregunta3" style="display: none;" class="card" style="width: 18rem;">
+            <img src="./imgs/paradojaDePinocho.jpg" class="card-img2" class="card-img-top" alt="...">
+            <h5 class="card-title" id="mas-info3">¿Más información?</h5>
+            <button class="mostrarBtn3" data-contenido="La paradoja de Pinocho es una versión de la paradoja del mentiroso formulada en 2001 por la australiana Veronique Eldridge-Smith a los 11 años de edad motivada por su padre Peter Eldridge-Smith, que en ese entonces se especializaba en filosofía de la lógica y quien la publicó en un artículo de la revista académica de filosofía 'Analysis'.">sí</button>
+            <button class="siguienteBtn3">Siguiente</button>
+        </div>
+    </div>
+    <div class="info">
+        <p id="recuadro-info3" style="display: none;" class="card-text"></p>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="carousel-abuelo">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imgs/time-abuelo.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="slide-title">Paradoja del Abuelo</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgs/timeTravel-abuelo.avif" id="img2-abuelo" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="slide-little-title" id="carousel-abuelo-title1">El viaje en el tiempo</h3>
+          <p class="carousel-paragraph">Imagina que viajas al pasado con una máquina del tiempo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgs/asesinatoAbuelo.jpg" class="d-block w-100" id="img3-abuelo">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="slide-little-title" id="carousel-abuelo-title2">El asesinato</h3>
+          <p class="carousel-paragraph">Luego, encuentras a tu abuelo, quien, en ese momento todavía no había conocido a tu abuela, empuñas un cuchillo y ¡lo matas!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgs/epicClock-abuelo.avif" class="d-block w-100" id="img4-abuelo">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="slide-little-title" id="carousel-abuelo-title3">La paradoja</h3>
+          <p class="carousel-paragraph" style="color: #434242;">Al matar a tu abuelo, tu padre no nació, y, por lo tanto, tú nunca naciste, pero si nunca naciste no pudiste viajar en el tiempo y por lo tanto tu abuelo sigue vivo. ¡Es una paradoja!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section id="option-cards">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" id="option-cards1">
+   <div class="card h-100 changing-card-text">
+     <div class="card-body">
+       <h4 class="card-title">Paradoja del Barbero</h4>
+       <p class="card-text">Hay un barbero el cual sabemos es "aquel que afeita a todos los que, y solo los que, no se afeitan a sí mismos". La pregunta es, ¿el barbero se afeita a sí mismo?</p>
+       <h6 class="card-text"><span></span></h6>
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end div-option">
+         <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option1_1">Sí</button>
+         <button class="btn btn-primary option1" type="button" id="btn-option1_2">No</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col" id="option-cards2">
+   <div class="card h-100 changing-card-text">
+     <div class="card-body">
+       <h4 class="card-title">Paradoja del perezoso</h4>
+       <p class="card-text">Si, en un mundo donde el destino está diseñado por un plan maestro que define todo cuanto va a ocurrir, sé que estoy enfermo, ¿no sería innecesario e inútil ir al médico?</p>
+       <h6 class="card-text"><span></span></h6>
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+         <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option2_1" style="width: fit-content;">Explicación</button>
+         <button class="btn btn-primary option1" type="button" id="btn-option2_2" style="width: fit-content;">Conclusión</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col" id="option-cards3">
+   <div class="card h-100 changing-card-text">
+     <div class="card-body">
+       <h4 class="card-title">Paradoja del examen sorpresa</h4>
+       <p class="card-text">Un profesor entra en clase y afirma: "Un día de la semana que viene pondré un examen sorpresa." Los alumnos saben que el exámen será una sorpresa y que será en la semana próxima.</p>
+       <h6 class="card-text"><span></span></h6>
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+         <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option3_1" style="width: fit-content">Razonamiento</button>
+         <button class="btn btn-primary option1" type="button" id="btn-option3_2" style="width: fit-content">Contradicción</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col" id="option-cards4">
+   <div class="card h-100 changing-card-text">
+     <div class="card-body">
+       <h4 class="card-title">Paradoja de la máquina del tiempo</h4>
+       <p class="card-text">Imagina que tocan tu puerta y al abrir solo encuentras un libro que te explica cómo armar una máquina del tiempo. Luego de unos años, logras construirla y viajar al pasado.</p>
+       <h6 class="card-text"><span></span></h6>
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+         <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option4_1" style="width: fit-content;">Paradoja</button>
+         <button class="btn btn-primary option1" type="button" id="btn-option4_2" style="width: fit-content;">Contradicción</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="col" id="option-cards5">
+  <div class="card h-100 changing-card-text">
+    <div class="card-body">
+      <h4 class="card-title">Paradoja del montón de arena</h4>
+      <p class="card-text">Imagina que de un montón de arena sacas un grano; el montón seguirá siendo un montón de arena. Pero, ¿cuántos granos habría que quitar para que deje de ser un monton de arena?</p>
+      <h6 class="card-text"><span></span></h6>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option5_1" style="width: fit-content;">Paradoja</button>
+        <button class="btn btn-primary option1" type="button" id="btn-option5_2" style="width: fit-content;">Razonamiento</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col" id="option-cards6">
+  <div class="card h-100 changing-card-text">
+    <div class="card-body">
+      <h4 class="card-title">Paradoja de los dos sobres</h4>
+      <p class="card-text">Puedes elegir uno entre dos sobres iguales. Uno de ellos posee el doble de dinero que el otro, pero solo puedes abrir uno. Antes de abrirlo, tienes la chance de intercambiarlo con el otro.</p>
+      <h6 class="card-text"><span></span></h6>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2 option1" type="button" id="btn-option6_1" style="width: fit-content;">Razonamiento</button>
+        <button class="btn btn-primary option1" type="button" id="btn-option6_2" style="width: fit-content;">Paradoja</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<div class="container contactanos-sobreNosotros">
+<div class="row">
+  <div class="col-md-6 p-0">
+  <section id="sobre-nosotras">
+   <div class="card text">
+      <img src="./imgs/Untitled design.png" class="card-img img-fluid img-nos" alt="...">
+    <div class="card-img-overlay">
+        <h2 class="card-title nos-card-title text-md">¡Creo que la educación puede ser <strong style="color: #247881; font-size: 1.8em;">divertida</strong>!</h2>
+        <div class="container">
+         <p class="card-text p-nos text-md">Soy estudiante de Generacion T, Streambe, y mi objetivo es desarrollar una página educativa e interactiva sobre paradojas.</p>
+        </div>
+        <div class="container">
+         <p class="card-text p-nos2 text-md">Tengo 17 años, soy de Argentina y espero seguir mejorando mis habilidades como desarrolladora web.</p>
+        </div>
+    </div>
+  </div>
+ </section>
+  </div>
+<div class="col-md-6 pl-0">
+  <section id="contacto">
+    <div class="flex-container">
+          <div class="form">
+            <h2>Contáctame</h2>
+          </div>         
+          <form action="https://formspree.io/f/xwkdwzvn" method="post">
+          <div class="form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+          </div>
+          <div class="form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="username@mail.com" required>
+          </div>
+          <div class="form">
+            <label for="tel">Teléfono</label>
+            <input type="tel" name="tel" id="tel" placeholder="Teléfono">
+          </div>
+          <div class="form">
+            <label for="text">Mensaje</label>
+            <input type="text" name="text" id="text" placeholder="Mensaje" required>
+          </div>
+          <div class="form" id="submitBtn">
+            <button type="submit" class="btn" style="width: fit-content;">Enviar</button>
+          </div>
+         </form>
+        </div>
+      </div>
+</section>
+</div>
+</div>
+</div>
+</main>
+<footer>
+  <div id="insta">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"  viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+  </svg>
+  <a href="https://instagram.com/agusgarcia143" target="_blank" class="redes">Instagram</a>
+ </div>
+ <div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+  </svg>
+  <a href="https://wa.me/2214599279" target="_blank" class="redes">Whatsapp</a>
+</div>
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+  </svg>
+  <a href="mailto:agustinaaloisilp@gmail.com" target="_blank" class="redes" id="gmail">Correo</a>
+</div>
+ <p id="copyright">Copyright© 2023</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
